@@ -86,9 +86,8 @@ To add settings for a specific server, add another entry to the config file:
     "global": {
         "kill_enabled": false
     },
-    {
     "<YOUR SERVER ID HERE>": {
-        "kill_enabled": True
+        "kill_enabled": true
     }
 }
 ```
