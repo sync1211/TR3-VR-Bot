@@ -1,0 +1,4 @@
+aiohttp[speedups]
+discord.py[voice]>=1.6
+pyopenssl
+requests[security]
