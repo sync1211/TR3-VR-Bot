@@ -6,7 +6,7 @@ This bot "walks" through channels, plays sounds and randomly kicks users from ch
 
 
 
-This bot is intended as a joke and was created in a hurry. Please excuse the messy code.
+This bot is intended as a joke and was created in a hurry for our server's Halloween event. Please excuse the messy code.
 
 
 ## Requirements
