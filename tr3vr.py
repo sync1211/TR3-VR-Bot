@@ -270,7 +270,7 @@ class TR3VR(commands.Cog, name="TR3-VR"):
     @commands.command(brief="stop walking")
     async def stopWalking(self, ctx):
         '''stops the walking loop for this server'''
-        self.on_guild_remove(ctx.guild)
+        await self.on_guild_remove(ctx.guild)
         if ctx.guild.voice_client is not None:
             await ctx.guild.voice_client.disconnect()
         await ctx.send("stopped walking...")
